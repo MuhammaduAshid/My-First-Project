@@ -14,7 +14,7 @@ void push() {
         cout << "Enter value: ";
         cin >> value;
         stackArr[++top] = value;
-        cout << "Value pushed successfully!\n";
+        cout << "push value was create successfully !\n";
     }
 }
 
@@ -22,7 +22,7 @@ void pop() {
     if (top == -1) {
         cout << "Stack Underflow!\n";
     } else {
-        cout << "Popped element: " << stackArr[top--] << endl;
+        cout << "Pop element: " << stackArr[top--] << endl;
     }
 }
 
